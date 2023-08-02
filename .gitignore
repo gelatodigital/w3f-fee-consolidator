@@ -1,0 +1,12 @@
+node_modules
+deployments
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+dist
+cache
+test
+artifacts
+.tmp
