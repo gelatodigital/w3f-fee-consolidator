@@ -1,6 +1,6 @@
 # Web3 Function Automated Fee Consolidation
 
-This project accrues various fee tokens and swaps them to a single user-specified token using an aggregator (1inch) once a certain threshold is exceeded.
+This project accrues various fee tokens and swaps them for a single user-specified token using an aggregator (1inch) once a certain threshold is exceeded.
 Tokens are accrued in a user's [`dedicatedMsgSender`](https://fund-proxy.web.app/) proxy which forwards calls from the Web3 Function in order to swap tokens.
 This can be adapted to instead swap fee tokens accrued in a Smart Contract or Safe (using a Safe module).
 Since computation is performed entirely off-chain by a Web3 Function, no contract deployment is necessary.
