@@ -11,7 +11,7 @@ Since computation is performed entirely off-chain by a Web3 Function, no contrac
 
 ## Hardhat Task
 The example implements a [consolidate](https://github.com/gelatodigital/w3f-fee-consolidator/blob/main/tasks/consolidate.ts) hardhat task for deployment from the CLI.  
-Arguments are as following:
+Arguments are the following:
 - `in` List of fee tokens to swap, separated by commas
 - `out` Unified output token to swap input tokens for
 - `amount` Minimum output amount for a swap denominated in output tokens
@@ -30,15 +30,11 @@ Arguments are as following:
    ```
    yarn install
    ```
-2. Compile smart contracts
-   ```
-   yarn run hardhat compile
-   ```
-3. Edit ``.env``
+2. Edit ``.env``
    ```
    cp .env.example .env
    ```
-5. Create consolidate task
+3. Create consolidate task
    ```
    yarn hardhat consolidate --in [addresses] --out [address] --amount [value] --network [network]
    ```
